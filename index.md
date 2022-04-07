@@ -46,3 +46,5 @@ Adding this on VSCode
 *Cool it worked*
 
 ## Screenshot of my screen shop (Screenshot-ception, directed by Christopher Nolan)
+[Lab Report 1](lab-report-1-week-2.html)
+[Lab Report 1](https://<CrustaceanKing>.github.io/<cse15l-lab-reports>/lab-report-1-week-2.html)
