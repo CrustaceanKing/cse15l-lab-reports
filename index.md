@@ -17,8 +17,8 @@ Spotify: [Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 Other Albums By Me;
 
-1) Soaring Above the Clouds [Link](https://music.apple.com/us/album/soaring-above-the-clouds/1561540065)
-2) Route 66 [Link](https://music.apple.com/us/album/route-66/1564035959)
+1) Soaring Above the Clouds (2021) [Link](https://music.apple.com/us/album/soaring-above-the-clouds/1561540065)
+2) Route 66 (2020) [Link](https://music.apple.com/us/album/route-66/1564035959)
 
 ## Ooga Booga 3: return of the Ooga
 Italic: *Ooga Booga*
