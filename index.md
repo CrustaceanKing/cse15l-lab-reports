@@ -34,3 +34,6 @@ Inline code: `Ooga Booga`
 print 'Listen to my music'
 print 'or die (for legal reasons this is not a death threat'
 ```
+Horizontal rule:
+
+---
