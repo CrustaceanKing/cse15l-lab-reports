@@ -39,3 +39,7 @@ print 'or die (for legal reasons this is not a death threat'
 Horizontal rule:
 
 ---
+
+Adding this on VSCode
+
+*Cool it worked*
