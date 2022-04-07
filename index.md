@@ -1,4 +1,4 @@
-# Ooga Booga
+# Ooga Booga - The Rundown
 This Page should
 * Use all the Markdown shortcuts
 * be funny
@@ -11,9 +11,14 @@ This is an Album I made in 2022!
 
 Heres some Links to listen to it;
 
-Apple Music: [Link](https://music.apple.com/us/artist/sean-wald/1551049336)
+Apple Music: [Link](https://music.apple.com/us/album/tales-under-the-twin-suns/1606414379)
 
 Spotify: [Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+Other Albums By Me;
+
+1) Soaring Above the Clouds [Link](https://music.apple.com/us/album/soaring-above-the-clouds/1561540065)
+2) Route 66 [Link](https://music.apple.com/us/album/route-66/1564035959)
 
 ## Ooga Booga 3: return of the Ooga
 Italic: *Ooga Booga*
