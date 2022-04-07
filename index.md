@@ -8,6 +8,10 @@ This Page should
 ![Image](https://m.media-amazon.com/images/I/51f9ZbJrPvL._UXNaN_FMjpg_QL85_.jpg)
 
 This is an Album I made in 2022!
+
+Heres some Links to listen to it
+[Link](http://a.com)
+
 *Ooga Booga*
 **Ooga Booga**
 
