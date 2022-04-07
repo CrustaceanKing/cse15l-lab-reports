@@ -5,9 +5,9 @@ This Page should
 * Ooga Booga
 
 ## Ooga Booga^2
-![Image](https://m.media-amazon.com/images/I/51f9ZbJrPvL._UXNaN_FMjpg_QL85_.jpg)
-
 This is an Album I made in 2022!
+
+![Image](https://m.media-amazon.com/images/I/51f9ZbJrPvL._UXNaN_FMjpg_QL85_.jpg)
 
 Heres some Links to listen to it;
 
