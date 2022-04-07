@@ -16,10 +16,16 @@ Apple Music: [Link](https://music.apple.com/us/artist/sean-wald/1551049336)
 Spotify: [Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Ooga Booga 3: return of the Ooga
-*Ooga Booga*
-**Ooga Booga**
+Italic: *Ooga Booga*
 
-[Ooga Booga][1]
-⋮
-[1]: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
-`Ooga Booga`
+Bold: **Ooga Booga**
+
+Inline code: `Ooga Booga`
+
+> Ooga Booga (Blockquote)
+
+```
+# code block
+print 'Listen to my music'
+print 'or die (for legal reasons this is not a death threat'
+```
