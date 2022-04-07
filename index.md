@@ -9,8 +9,10 @@ This Page should
 
 This is an Album I made in 2022!
 
-Heres some Links to listen to it
-[Link](http://a.com)
+Heres some Links to listen to it;
+
+[Link](https://music.apple.com/us/artist/sean-wald/1551049336)
+[Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 *Ooga Booga*
 **Ooga Booga**
