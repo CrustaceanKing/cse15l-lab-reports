@@ -9,4 +9,4 @@ See full doc for my lab report, I am Thomas Wald, I'm not inclujding all images 
 [Report](https://docs.google.com/document/d/1maPccOF-x_HTyRHrmMAQTRCy1AYFtRyybYUjuDtrG8E/edit)
 
 back to main 
-[page] (https://crustaceanking.github.io/cse15l-lab-reports/)
+[page](https://crustaceanking.github.io/cse15l-lab-reports/)
