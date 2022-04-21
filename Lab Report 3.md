@@ -3,8 +3,8 @@
 # First change:
 [first](https://github.com/CrustaceanKing/markdown-parser/commit/a2cd687791e507bf66f70c6e0e8f6c72a50139e6)
 
-**Test file;
-
+**Test file;**
+[failure1](https://github.com/CrustaceanKing/markdown-parser/blob/main/test-file.md)
 
 **Symptoms of failure;**
 Our of memory error when code tries to complie, infinite loops causes code to crash
@@ -15,13 +15,13 @@ Because there was no check if they were -1, it would infinitely loop and eventua
 # Second change:
 
 
-**Test file;
-
+**Test file;**
+[failure2](https://github.com/CrustaceanKing/markdown-parser/blob/main/test-file8.md)
 
 **Symptoms of failure;**
 if think encapsulated in parenthesis was not a link, it would still add 
 **Ex:** 
-given "link(in brackets) enter link here(in parenthesis)"
+given "[link](enter link here)"
 it would add "enter link here" when it should've added nothing
 
 **Fix;**
@@ -29,12 +29,13 @@ I added a statement to check if a period exists in the substring inbetween the p
 
 # Third change
 
-**Test file:
+**Test file:**
+[failure3](https://github.com/CrustaceanKing/markdown-parser/blob/main/failure3.md)
 
 **Symptoms of failure;**
 What happened was the last fix worked if the thing inside the parenthesis was not a link, or rerally that was supposed to be how it worked but if a phrase had a period (like an end of sentence), then it would still be included, causing the wrong thing to be added to the array
 **Ex:**
-given "link(in brackets) enter link here.(in parenthesis)"
+given "[link](enter link here.)"
 it would add "enter link here." when it should've added nothing
 
 **Fix:**
