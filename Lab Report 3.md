@@ -19,7 +19,7 @@ Because there was no check if they were -1, it would infinitely loop and eventua
 [failure2](https://github.com/CrustaceanKing/markdown-parser/blob/main/test-file8.md)
 
 **Symptoms of failure;**
-if think encapsulated in parenthesis was not a link, it would still add 
+if the link encapsulated in parenthesis was not a link, it would still add 
 **Ex:** 
 given "[link](enter link here)"
 it would add "enter link here" when it should've added nothing
