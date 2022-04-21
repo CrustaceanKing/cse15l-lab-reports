@@ -18,5 +18,8 @@ Test file;
 
 Symptoms of failure;
 If link had parenthesis in it, would cause the code to end the link early
+Ex: 
+Output: [https://ooga[]booga.com, https://ooga[]bo(]
+Should've been: [https://ooga[]booga.com, https://ooga[]bo()oga.com]
 
 What I did here was check to make sure that the last parenthesis comes after the .com statement, therefore it wouldn't end early. Unfortunately, while this did work for the .com exception, it didn't work for any others.
