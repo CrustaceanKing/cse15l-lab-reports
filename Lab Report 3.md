@@ -6,6 +6,8 @@ Lab 3: 3 changes made to code
 ![image](Failure1.png)
 
 **Test file;**
+![image](Symptom1.png)
+
 [failure1](https://github.com/CrustaceanKing/markdown-parser/blob/main/test-file.md)
 
 **Symptoms of failure;**
@@ -18,6 +20,8 @@ Because there was no check if they were -1, it would infinitely loop and eventua
 ![image](Failure2.png)
 
 **Test file;**
+![image](Symptom2.png)
+
 [failure2](https://github.com/CrustaceanKing/markdown-parser/blob/main/test-file8.md)
 
 **Symptoms of failure;**
@@ -33,6 +37,8 @@ I added a statement to check if a period exists in the substring inbetween the p
 ![image](Failure3.png)
 
 **Test file:**
+![image](Symptom3.png)
+
 [failure3](https://github.com/CrustaceanKing/markdown-parser/blob/main/failure3.md)
 
 **Symptoms of failure;**
