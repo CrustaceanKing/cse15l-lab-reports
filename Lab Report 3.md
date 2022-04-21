@@ -1,7 +1,9 @@
-3 Changes made to code
+Lab 3: 3 changes made to code
+
+(Sean) Thomas Wald
 
 # First change:
-[first](https://github.com/CrustaceanKing/markdown-parser/commit/a2cd687791e507bf66f70c6e0e8f6c72a50139e6)
+![image](Failure1.png)
 
 **Test file;**
 [failure1](https://github.com/CrustaceanKing/markdown-parser/blob/main/test-file.md)
@@ -13,7 +15,7 @@ for the first error, the code would infinitely loop because if there were no mor
 Because there was no check if they were -1, it would infinitely loop and eventually cause an out of memory error. This was fixed by adding a break statement when the code did assign instance variables a value of -1, so that it never loops.
 
 # Second change:
-
+![image](Failure2.png)
 
 **Test file;**
 [failure2](https://github.com/CrustaceanKing/markdown-parser/blob/main/test-file8.md)
@@ -28,6 +30,7 @@ it would add "enter link here" when it should've added nothing
 I added a statement to check if a period exists in the substring inbetween the parenthesis (like htpps//github.com or smth, where there is a period), this made sure that it adds out only links
 
 # Third change
+![image](Failure3.png)
 
 **Test file:**
 [failure3](https://github.com/CrustaceanKing/markdown-parser/blob/main/failure3.md)
