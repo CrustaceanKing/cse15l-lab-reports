@@ -2,13 +2,13 @@
 # Streamline ssh congif
 
 ## ssh Config file:
-![Image](Lab6_1.png)
+![Image](Lab6_2.png)
 
 edited with mac TextEditor:
 ![Image](Lab6_3.png)
 
 ## ssh login to acc:
-![Image](Lab6_2.png)
+![Image](Lab6_1.png)
 
 ## scp using alias:
 ![Image](Lab6_4.png)
