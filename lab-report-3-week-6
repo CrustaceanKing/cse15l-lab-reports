@@ -1,1 +1,26 @@
 
+# Streamlining Ssh config
+
+ssh Config file:
+
+ssh login to acc:
+
+scp using alias:
+
+#Githu Access from ieng6
+
+public key screenshot:
+
+private key:
+
+running git commands
+
+link for resulting commit
+
+#copy directories
+
+copy whole markdow-parse to ieng6
+
+compile and tun tests on ieng6
+
+combining scp ; and ssh to copy whole directory and run tests on one line
