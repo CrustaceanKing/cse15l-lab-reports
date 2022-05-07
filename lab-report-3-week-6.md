@@ -2,18 +2,27 @@
 # Streamline ssh congif
 
 ## ssh Config file:
+![Image](Lab6_1.png)
+
+edited with mac TextEditor:
+![Image](Lab6_3.png)
 
 ## ssh login to acc:
+![Image](Lab6_2.png)
 
 ## scp using alias:
+![Image](Lab6_4.png)
 
 # Githu Access from ieng6
 
 ## public key screenshot:
+![Image](Lab6_5.png)
 
 ## private key:
+![Image](Lab6_6.png)
 
 ## running git commands
+![Image](Lab6_7.png)
 
 ## link for resulting commit
 [link](https://github.com/CrustaceanKing/markdown-parser/commit/a05eb1089f0ec48650bb1539c0f98e73fd7f864c)
@@ -21,10 +30,14 @@
 # copy directories
 
 ## copy whole markdow-parse to ieng6
+![Image](Lab6_8.png)
 
 ## compile and tun tests on ieng6
+![Image](Lab6_9.png)
 
 ## combining scp ; and ssh to copy whole directory and run tests on one line
+![Image](Lab6_10_1.png)
+![Image](Lab6_10_2.png)
 
 what I wrote:
 
