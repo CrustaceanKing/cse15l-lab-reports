@@ -1,45 +1,49 @@
+# Lab Report 3
+Week 6
+Sean Thomas Itto Orion Wald
 
-# Streamline ssh congif
+
+## Streamline ssh congif
 
 Note: I made my alias STIOW - Sean Thomas Itto Orion Wald (my name)
 
-## ssh Config file:
+### ssh Config file:
 ![Image](Lab6_2.png)
 
 edited with mac TextEditor:
 ![Image](Lab6_3.png)
 
-## ssh login to acc:
+### ssh login to acc:
 ![Image](Lab6_1.png)
 
-## scp using alias:
+### scp using alias:
 ![Image](Lab6_4.png)
 
-# Githu Access from ieng6
+## Githu Access from ieng6
 
 -note, directions were particularly bad for this step
 
-## public key screenshot:
+### public key screenshot:
 ![Image](Lab6_5.png)
 
-## private key:
+### private key:
 ![Image](Lab6_6.png)
 
-## running git commands
+### running git commands
 ![Image](Lab6_7.png)
 
-## link for resulting commit
+### link for resulting commit
 [link](https://github.com/CrustaceanKing/markdown-parser/commit/a05eb1089f0ec48650bb1539c0f98e73fd7f864c)
 
-# copy directories
+## copy directories
 
-## copy whole markdow-parse to ieng6
+### copy whole markdow-parse to ieng6
 ![Image](Lab6_8.png)
 
-## compile and tun tests on ieng6
+### compile and tun tests on ieng6
 ![Image](Lab6_9.png)
 
-## combining scp ; and ssh to copy whole directory and run tests on one line
+### combining scp ; and ssh to copy whole directory and run tests on one line
 
 what I wrote:
 
