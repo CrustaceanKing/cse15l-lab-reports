@@ -18,7 +18,7 @@ edited with mac TextEditor:
 ![Image](Lab6_1.png)
 
 ### scp using alias:
-![Image] ooga booga (Lab6_4.png)
+![Image](Lab6_4.png)
 
 ## Githu Access from ieng6
 
