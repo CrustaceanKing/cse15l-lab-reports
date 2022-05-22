@@ -2,7 +2,7 @@
 
 Link to my repo: [myRepo](https://github.com/CrustaceanKing/markdown-parser)
 
-Link to other group repo: [theirRepo](https://github.com/NuojinliXu/mq`arkdown-parser)
+Link to other group repo: [theirRepo(Forked as Mine)]([https://github.com/NuojinliXu/mq`arkdown-parser](https://github.com/CrustaceanKing/Week7MarkParse-Theirs))
 
 ## Test 1
 
