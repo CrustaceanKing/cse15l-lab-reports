@@ -6,9 +6,9 @@
 
 **Picture of Test Code**
 
-**My Code - Pass/No Pass w Picture: **
+**My Code - Pass/No Pass w Picture:**
 
-**Other Group - Pass/No Pass w Picture: **
+**Other Group - Pass/No Pass w Picture:**
 
 ## Test 2
 
@@ -16,9 +16,9 @@
 
 **Picture of Test Code**
 
-**My Code - Pass/No Pass w Picture: **
+**My Code - Pass/No Pass w Picture:**
 
-**Other Group - Pass/No Pass w Picture: **
+**Other Group - Pass/No Pass w Picture:**
 
 ## Test 3
 
@@ -26,9 +26,9 @@
 
 **Picture of Test Code**
 
-**My Code - Pass/No Pass w Picture: **
+**My Code - Pass/No Pass w Picture:**
 
-**Other Group - Pass/No Pass w Picture: **
+**Other Group - Pass/No Pass w Picture:**
 
 ## Follow up Questions:
 
