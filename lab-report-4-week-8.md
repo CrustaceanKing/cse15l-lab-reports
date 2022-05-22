@@ -8,9 +8,13 @@ based on the preview window in VSCode, the first "link" is not a link, but the o
 
 **Picture of Test Code**
 
+![Image](Test-Snippet1.png)
+
 **My Code - Pass/No Pass w Picture:**
 
 Unfortunately, My code did not pass this test. It picket up on the first link, "url.com" (which was invalid), and thus asserted false when compared to the expected output
+
+![Image](Testing-Snippet1.png)
 
 **Other Group - Pass/No Pass w Picture:**
 
@@ -22,9 +26,13 @@ Based on the preview in VSCode, all the links are technically valid, having a.co
 
 **Picture of Test Code**
 
+![Image](Test-Snippet2.png)
+
 **My Code - Pass/No Pass w Picture:**
 
 Unfortunately, My code did not pass this test. In the second link, 'a.com(())', it did not pickup the last two parenthesis, instead getting 'a.com(('.
+
+![Image](Testing-Snippet2.png)
 
 **Other Group - Pass/No Pass w Picture:**
 
@@ -36,9 +44,13 @@ based on the preview in VSCode, the only valid link was https://sites.google.com
 
 **Picture of Test Code**
 
+![Image](Test-Snippet3.png)
+
 **My Code - Pass/No Pass w Picture:**
 
 Unfortunately, My code did not pass this test. The code did not pick up anything at all, whereas it was supposed to get the one long link
+
+![Image](Testing-Snippet3.png)
 
 **Other Group - Pass/No Pass w Picture:**
 
