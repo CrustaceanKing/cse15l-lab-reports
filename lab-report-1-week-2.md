@@ -1,4 +1,4 @@
-
+[Return to home page](https://crustaceanking.github.io/cse15l-lab-reports/Lab-reports.html)
 # Lab report 1
 
 Screenshot-ception
