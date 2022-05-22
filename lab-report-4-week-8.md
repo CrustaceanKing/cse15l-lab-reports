@@ -1,5 +1,9 @@
 # Lab Report 6
 
+Link to my repo: [myRepo](https://github.com/CrustaceanKing/markdown-parser)
+
+Link to other group repo: [theirRepo](https://github.com/NuojinliXu/mq`arkdown-parser)
+
 ## Test 1
 
 **What should the result be? :**
