@@ -1,3 +1,4 @@
+[Return to home page](https://crustaceanking.github.io/cse15l-lab-reports/Lab-reports.html)
 # Lab Report 3
 Week 6
 
