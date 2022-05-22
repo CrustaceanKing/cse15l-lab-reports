@@ -1,4 +1,4 @@
-# Lab Report 6
+# Lab Report 4
 
 Link to my repo: [myRepo](https://github.com/CrustaceanKing/markdown-parser)
 
@@ -22,6 +22,10 @@ Unfortunately, My code did not pass this test. It picket up on the first link, "
 
 **Other Group - Pass/No Pass w Picture:**
 
+Unfortunately the other group did not pass either, as with all the tests none of the links got added at all, resulting in an empty array
+
+![Image](Their-Test1.png)
+
 ## Test 2
 
 **What should the result be? :**
@@ -40,6 +44,10 @@ Unfortunately, My code did not pass this test. In the second link, 'a.com(())', 
 
 **Other Group - Pass/No Pass w Picture:**
 
+Unfortunately the other group did not pass either, as with all the tests none of the links got added at all, resulting in an empty array
+
+![Image](Their-Test2.png)
+
 ## Test 3
 
 **What should the result be? :**
@@ -57,6 +65,10 @@ Unfortunately, My code did not pass this test. The code did not pick up anything
 ![Image](Testing-Snippet3.png)
 
 **Other Group - Pass/No Pass w Picture:**
+
+Unfortunately the other group did not pass either, as with all the tests none of the links got added at all, resulting in an empty array
+
+![Image](Their-Test3.png)
 
 ## Follow up Questions:
 
