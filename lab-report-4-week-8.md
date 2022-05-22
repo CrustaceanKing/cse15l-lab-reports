@@ -86,4 +86,4 @@ My code picked up nothing for this confusingly, I believe this is due to my code
 
 **Additional thoughts on changes**
 
-One important check I realized my code was missing (that was not tested in this code) was that the end of the brackets and beginning of parenthesis need to be directly in successtion. I.e, "[](a.com)" is a valid link but "[] (a.com)" is not. That would be a simple chack saying like if the index + 1 of the end bracket is equal to "(", then continue, if not break.
+One important check I realized my code was missing (that was not tested in this code) was that the end of the brackets and beginning of parenthesis need to be directly in successtion. I.e, "[edit this file to see the link](a.com)" is a valid link but "[] (a.com)" is not. That would be a simple chack saying like if the index + 1 of the end bracket is equal to "(", then continue, if not break.
