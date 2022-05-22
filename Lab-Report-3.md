@@ -1,4 +1,5 @@
-Lab 3: 3 changes made to code
+[return to home page](https://crustaceanking.github.io/cse15l-lab-reports/Lab-reports.html)
+## Lab 3: 3 changes made to code
 
 (Sean) Thomas Wald
 
