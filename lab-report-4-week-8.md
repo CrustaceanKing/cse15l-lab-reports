@@ -1,3 +1,4 @@
+[Return to home page](https://crustaceanking.github.io/cse15l-lab-reports/Lab-reports.html)
 # Lab Report 4
 
 Link to my repo: [myRepo](https://github.com/CrustaceanKing/markdown-parser)
