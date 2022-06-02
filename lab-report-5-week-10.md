@@ -25,7 +25,7 @@ Test Number 14
 
 What should it produce?
 
-As we see from the image, the only link that the markdown picked up was what was comtained in "not a link", which happened to be /foo. SO while technically /foo itself if not a link, makrdown believes it to be a valid link, therefore it should be picked up by the parser.
+As we see from the image, the only link that the markdown picked up was what was comtained in "not a link", which happened to be /foo. So while technically /foo itself if not a link, makrdown believes it to be a valid link, therefore it should be picked up by the parser, and the expected output should be  "[/foo]"
 
 ## Which Test is Correct?
 
