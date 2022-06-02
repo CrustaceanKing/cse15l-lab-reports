@@ -21,6 +21,8 @@ Test Number 14
 
 ## Expected Output
 
+![Image](Lab5Test14Img.png)
+
 What should it produce?
 
 ## Which Test is Correct?
@@ -34,6 +36,8 @@ Test Number 201
 ## Comparison screenshot
 
 ## Expected Output
+
+![Image](Lab5Test201Img.png)
 
 What should it produce?
 
