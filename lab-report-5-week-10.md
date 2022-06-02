@@ -8,11 +8,14 @@ choose two differing tests, compare the code, see which is right/wrong and expla
 
 >vimdiff, bash for loop, search manually, other way?
 
-## Link to test file
+## Link to test files
 
-# Test 1
+14
+194
 
-Test Number _
+# Test 1: File 14 
+
+Test Number 14
 
 ## Comparison screenshot
 
@@ -24,11 +27,9 @@ What should it produce?
 
 ## For Incorrect Implementation, describe bug
 
-# Test 2
+# Test 2: File 194
 
-# Test 2
-
-Test Number _
+Test Number 194
 
 ## Comparison screenshot
 
