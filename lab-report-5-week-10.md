@@ -34,6 +34,8 @@ As we see from the image, the only link that the markdown picked up was what was
 
 ## Which Test is Correct?
 
+Simply based on Markdown rules, the given test was correct, and my test was incorrect. Comparing to the image above, the only link returned should have been "/foo", which the given code returned but my code not. Therefore simply by markdown standards, the given code test is correct
+
 ## For Incorrect Implementation, describe bug
 
 # Test 2: File 201
@@ -55,5 +57,7 @@ As we can see, the code outputs differ here as my code did not pcik up "baz" as 
 Again with the last test, we see that markdown sees the "[foo]" followed by a colon, followed by (baz) as a valid link, and picks up the link baz with a title foo. Even though as with the last test "baz" itself is not a valid link, and if we click on it we get a "404 page not found", because markdown think's it is a link the expected output should pick this up and therefore be "[baz]"
 
 ## Which Test is Correct?
+
+Simply based on Markdown rules, the given test was correct, and my test was incorrect. Comparing to the image above, the only link returned should have been "baz", which the given code returned but my code not. Therefore simply by markdown standards, the given code test is correct
 
 ## For Incorrect Implementation, describe bug
