@@ -11,7 +11,7 @@ Here is a link to my [Piazza Post](https://canvas.ucsd.edu/courses/35489/externa
 
 If link doesn't work it is @805
 
-Because of this, I decided to check two tests anyways, **EVEN THOUGH THEY HAVE THE SAME BUG**. Please understand there was nothing I could do in this case
+Because of this, I decided to check two tests anyways, and even though they are likely caused by the same bug, for the second one I described a different bug that may also have influenced the results and cases when it would actually fail. Please understand this was about the greatest extent I could do, thanks.
 
 
 ### How I found the Test Files to Compare
