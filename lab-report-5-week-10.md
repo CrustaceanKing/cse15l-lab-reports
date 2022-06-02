@@ -10,8 +10,9 @@ choose two differing tests, compare the code, see which is right/wrong and expla
 
 ## Link to test files
 
-[14](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/14.md)
-[201](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md)
+Test 14: [14](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/14.md)
+
+Test 201: [201](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md)
 
 # Test 1: File 14 
 
@@ -23,7 +24,7 @@ Test Number 14
 
 ![Image](Lab5Test14Img.png)
 
-What should it produce?
+**What should it produce?**
 
 As we see from the image, the only link that the markdown picked up was what was comtained in "not a link", which happened to be /foo. So while technically /foo itself if not a link, makrdown believes it to be a valid link, therefore it should be picked up by the parser, and the expected output should be  "[/foo]"
 
