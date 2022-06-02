@@ -58,7 +58,7 @@ Simply based on Markdown rules, the given test was correct, and my test was inco
 ### For Incorrect Implementation, Describe Bug
 
 Ironcially, the reason my code did not work is because it is more correct than markdown itself, which sounds cocky but let me explain. In my code, as seen below, markParse2 (my markdown file) has a check to see if the link contains a "." character, and if it doesn't skip this link.
-![Image](Lab5MarkError.png)
+![Image](Lab5RedoTest1.png)
 This is because in my mind a valid link would have to include some type of domain, such as .org, .edu, .gov, etc., which all have a "." seperating the domain from the rest of the link, therefore any links not containing the character "." were invalid, which for the most part is true! As we see with /foo, when we click on it we get a "404 Page Not Found"
 ![Image](Lab5Test14-404.png)
 However, while this is *accurate*, it fails to consider that eventhough */foo is not a valid link*, **the markdown langauge will still pick it up as a valid link**. So for this to be a 100% accurate **markdown parser**, my code should have picked up the link, which is an easy fix as all I would need to do is delete the highlighted line above. Without a check of the ".", this link should've been picked up.
@@ -89,8 +89,9 @@ Simply based on Markdown rules, the given test was correct, and my test was inco
 
 ### For Incorrect Implementation, Describe Bug
 
-Again, the reason my code did not pick up this link was because it's too accurate: It does not include links that do not contain a domain, as checked by the existance of a "."
-![Image](Lab5MarkError.png)
-Also again, this is technically, correct: "baz" is not a valid link as seen below (Also note how it's Obi Wan on Tatooine, probably because of Kenobi, which is 8/10 ngl, but I just found that funny)
+Again, the reason my code did not pick up this link was because it's too accurate: It does not include links that do not contain a domain, as checked by the existance of a ".". 
+**However**, because of the rule of not talking about the same bug, I will discuss another bug which may have called this issue. In my code, if the end bracket ] is not directly before the open parenthesis (, the code will not include this link. This may actually also be why the code did not pick up on the baz, as there was a : and a space character seperating the two, so my code, seeing this, would not include this link, even though as we see above markdown itself picks this up as a valid link. Here is an image of the line in my code that would case this error
+![Image](Lab5RedoTest2.png)
+Again, even though this is not the expected output, my output is technically, correct: "baz" is not a valid link as seen below (Also note how it's Obi Wan on Tatooine, probably because of Kenobi, which is 8/10 ngl, but I just found that funny). However, if this was a valid link, my output would be incorrect, as it would miss this link entirely due to the fact that there was a space between the end bracket and the open parenthesis of the link.
 ![Image](Lab5404201.png)
-However, because markdown thinks this to be a valid link and because this is a markdown parser, it should have picked up that link. Therefore to make a more correct markdown parser, I would have to deleted the highlighted line of code above so that the parser does not check if the link contains a ".". In other words, I was checking if a link was a valid link, but markdown does not do that, therefore my markdown parser should not do that either.
+However, markdown both recignizes baz as a link and also recognizes a space between the bracjkets arguemnt and the parenthesis arguemnt as still valid for links. A quick fix for this bug may be to remove those lines all togther, however some further algorithm may need to be implemented as links cannot exceed a newline character, so further testing on the exact distance markdown allows between links and brackets would be necessary to find out what would accurately fix this issue
