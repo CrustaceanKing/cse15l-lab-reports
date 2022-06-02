@@ -4,6 +4,16 @@
 
 choose two differing tests, compare the code, see which is right/wrong and explain
 
+**NOTE FOR GRADER:**
+In the Lab 5 write up, it mentions "The tests with different answers should correspond to different bugs – that is, you couldn’t easily fix both with one code change." **HOWEVER**: I have gone through like 19 tests at this point that were different, and they all come down to this same bug, which happens because my version of markdown parser checks if the links are valid links, whereas the markdown language does not. 
+
+Here is a link to my [Piazza Post](https://canvas.ucsd.edu/courses/35489/external_tools/3269)
+
+If link doesn't work it is @805
+
+Because of this, I decided to check two tests anyways, **EVEN THOUGH THEY HAVE THE SAME BUG**. Please understand there was nothing I could do in this case
+
+
 ### How I found the Test Files to Compare
 
 How I went about finding the test files to compare was first for each repository containing the different markdown tests, I added a `script.sh`, which compiled the markdown parser on all 1000+ test files, then I ran `bash script.sh` and added the result to a file called `results.txt` (command line would be " `time bash script.sh > results.txt` ". This file would contain what the markdown would compile for each specific test file, for all test files (which was over 1000!)
