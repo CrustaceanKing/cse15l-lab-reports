@@ -6,7 +6,7 @@ choose two differing tests, compare the code, see which is right/wrong and expla
 
 ### How I found the Test Files to Compare
 
-How I went about findint the test files to compare was first for each repository containing the different markdown tests, I added a `script.sh`, which compiled the markdown parser on all 1000 test files, then I ran `bash script.sh` and added the result to a file called `results.txt` (command line would be " `time bash script.sh > results.txt` ".
+How I went about finding the test files to compare was first for each repository containing the different markdown tests, I added a `script.sh`, which compiled the markdown parser on all 1000 test files, then I ran `bash script.sh` and added the result to a file called `results.txt` (command line would be " `time bash script.sh > results.txt` ".
 
 Now that I had done this for each repository, meaning I had two different results.txt, each having the 1000 files compiled on the specific repositories version of the markdown parser, I used vimdiff to compare them.
 
