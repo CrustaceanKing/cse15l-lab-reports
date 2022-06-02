@@ -75,5 +75,5 @@ Simply based on Markdown rules, the given test was correct, and my test was inco
 Again, the reason my code did not pick up this link was because it's too accurate: It does not include links that do not contain a domain, as checked by the existance of a "."
 ![Image](Lab5MarkError.png)
 Also again, this is technically, correct: "baz" is not a valid link as seen below
-
+![Image](Lab5404201.png)
 However, because markdown thinks this to be a valid link and because this is a markdown parser, it should have picked up that link. Therefore to make a more correct markdown parser, I would have to deleted the highlighted line of code above so that the parser does not check if the link contains a ".". In other words, I was checking if a link was a valid link, but markdown does not do that, therefore my markdown parser should not do that either.
