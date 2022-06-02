@@ -6,7 +6,14 @@ choose two differing tests, compare the code, see which is right/wrong and expla
 
 ### How I found the Test Files to Compare
 
->vimdiff, bash for loop, search manually, other way?
+How I went about findint the test files to compare was first for each repository containing the different markdown tests, I added a 'script.sh', which compiled the markdown parser on all 1000 test files, then I ran 'bash script.sh' and added the result to a file called 'results.txt' (command line would be " 'time bash script.sh > results.txt' ".
+
+Now that I had done this for each repository, meaning I had two different results.txt, each having the 1000 files compiled on the specific repositories version of the markdown parser, I used vimdiff to compare them.
+
+The command was: 'vimdiff my-markdown-parser/results.txt cse15lsp22-markdown-parser/results.txt'
+
+This allowed me to compare them side by side and see any differences. Two main ones I noticed were test 14, and test 201, so I will be looking at those
+
 
 ### Link to Test Files Used
 
