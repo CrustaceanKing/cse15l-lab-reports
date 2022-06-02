@@ -41,9 +41,9 @@ Simply based on Markdown rules, the given test was correct, and my test was inco
 ## For Incorrect Implementation, describe bug
 
 Ironcially, the reason my code did not work is because it is more correct than markdown itself, which sounds cocky but let me explain. In my code, as seen below, markParse2 (my markdown file) has a check to see if the link contains a "." character, and if it doesn't skip this link.
-
+![Image](Lab5MarkError.png)
 This is because in my mind a valid link would have to include some type of domain, such as .org, .edu, .gov, etc., which all have a "." seperating the domain from the rest of the link, therefore any links not containing the character "." were invalid, which for the most part is true! As we see with /foo, when we click on it we get a "404 Page Not Found"
-
+![Image](Lab5Test14-404.png)
 However, while this is *accurate*, it fails to consider that eventhough */foo is not a valid link*, **the markdown langauge will still pick it up as a valid link**. SO for this to be a 100% accurate **markdown parser**, my code should have picked up the link, which is an easy fix as all I would need to do is delete the highlighted line above. Without a check of the ".", this link should've been picked up.
 
 # Test 2: File 201
