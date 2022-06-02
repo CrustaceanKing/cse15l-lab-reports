@@ -42,7 +42,7 @@ Test Number 201
 
 ![Image](Lab5Test201Img.png)
 
-What should it produce?
+**What should it produce?**
 
 ## Which Test is Correct?
 
