@@ -4,11 +4,11 @@
 
 choose two differing tests, compare the code, see which is right/wrong and explain
 
-### How I found the Test
+### How I found the Test Files to Compare
 
 >vimdiff, bash for loop, search manually, other way?
 
-### Link to test files
+### Link to Test Files Used
 
 Test 14: [14](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/14.md)
 
@@ -20,7 +20,7 @@ Test Number 14
 
 [Test File](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/14.md)
 
-### Comparison screenshot
+### Comparison Screenshot
 
 ![Image](Lab5Comp14.png)
 
@@ -30,7 +30,7 @@ As we can see, the difference on test 14 between my code and the given code is t
 
 ![Image](Lab5Test14Img.png)
 
-**What should it produce?**
+**What Should it Produce?**
 
 As we see from the image, the only link that the markdown picked up was what was comtained in "not a link", which happened to be /foo. So while technically /foo itself if not a link, makrdown believes it to be a valid link, therefore it should be picked up by the parser, and the expected output should be  "[/foo]"
 
@@ -38,7 +38,7 @@ As we see from the image, the only link that the markdown picked up was what was
 
 Simply based on Markdown rules, the given test was correct, and my test was incorrect. Comparing to the image above, the only link returned should have been "/foo", which the given code returned but my code not. Therefore simply by markdown standards, the given code test is correct
 
-### For Incorrect Implementation, describe bug
+### For Incorrect Implementation, Describe Bug
 
 Ironcially, the reason my code did not work is because it is more correct than markdown itself, which sounds cocky but let me explain. In my code, as seen below, markParse2 (my markdown file) has a check to see if the link contains a "." character, and if it doesn't skip this link.
 ![Image](Lab5MarkError.png)
@@ -52,7 +52,7 @@ Test Number 201
 
 [Test File](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md)
 
-### Comparison screenshot
+### Comparison Screenshot
 
 ![Image](Lab5Comp201.png)
 
@@ -62,7 +62,7 @@ As we can see, the code outputs differ here as my code did not pcik up "baz" as 
 
 ![Image](Lab5Test201Img.png)
 
-**What should it produce?**
+**What Should it Produce?**
 
 Again with the last test, we see that markdown sees the "[foo]" followed by a colon, followed by (baz) as a valid link, and picks up the link baz with a title foo. Even though as with the last test "baz" itself is not a valid link, and if we click on it we get a "404 page not found", because markdown think's it is a link the expected output should pick this up and therefore be "[baz]"
 
@@ -70,4 +70,10 @@ Again with the last test, we see that markdown sees the "[foo]" followed by a co
 
 Simply based on Markdown rules, the given test was correct, and my test was incorrect. Comparing to the image above, the only link returned should have been "baz", which the given code returned but my code not. Therefore simply by markdown standards, the given code test is correct
 
-### For Incorrect Implementation, describe bug
+### For Incorrect Implementation, Describe Bug
+
+Again, the reason my code did not pick up this link was because it's too accurate: It does not include links that do not contain a domain, as checked by the existance of a "."
+![Image](Lab5MarkError.png)
+Also again, this is technically, correct: "baz" is not a valid link as seen below
+
+However, because markdown thinks this to be a valid link and because this is a markdown parser, it should have picked up that link. Therefore to make a more correct markdown parser, I would have to deleted the highlighted line of code above so that the parser does not check if the link contains a ".". In other words, I was checking if a link was a valid link, but markdown does not do that, therefore my markdown parser should not do that either.
