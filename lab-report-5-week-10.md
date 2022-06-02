@@ -20,6 +20,10 @@ Test Number 14
 
 ## Comparison screenshot
 
+![Image](Lab5Comp14.png)
+
+As we can see, the difference on test 14 between my code and the given code is that my code did not pick up "/foo" and a valid link, whereas the given code did
+
 ## Expected Output
 
 ![Image](Lab5Test14Img.png)
@@ -37,6 +41,10 @@ As we see from the image, the only link that the markdown picked up was what was
 Test Number 201
 
 ## Comparison screenshot
+
+![Image](Lab5Comp201.png)
+
+As we can see, the code outputs differ here as my code did not pcik up "baz" as a valid link, whereas the given code did
 
 ## Expected Output
 
